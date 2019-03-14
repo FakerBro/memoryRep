@@ -1,0 +1,27 @@
+
+.game-board
+{
+  margin:30px auto;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  width: 550px;
+  height: 444px;
+  border: 2px solid #ddd;
+}
+
+.game-tile {
+  position: absolute;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background: #f6da17 url(http://localhost:63342/untitled/mem.html?_ijt=535lir62fl6q2av26soj34sbqp) center center no-repeat;
+}
+
+.game-tile:hover {
+  background-color:#F7C11A;
+}
+
+.game-score {
+  text-align:center;
+}
